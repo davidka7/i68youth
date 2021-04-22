@@ -6,8 +6,8 @@ body{margin: 0}
 }
 .familylogo{
   float: center !important;
-  width:clamp(20vw, 50%, 25vw);
- 
+  width:clamp(15vw, 50%, 20vw);
+  height:clamp(15vw, 50%, 20vw);
     border-radius: 50%;
   
 }
@@ -38,12 +38,12 @@ text-align:center;
   padding-right:10vw
 }
 .imglogo {
-  width:clamp(20vw, 50%, 10vw);
-  
+  width:clamp(15vw, 50%, 15vw);
+  opacity:.8;
   float: left !important;
  
 margin :0;
-padding-top:1vh;
+padding-top:clamp(2rem, .5vw, 5rem);
 }
 header {width: 100%;
   position: fixed;
@@ -76,14 +76,14 @@ justify-content: space-around;
 nav li {
 display:inline-block;
 
-padding-top:clamp(3rem, 3.5vw, 20rem);
+padding-top:clamp(3rem, 2.5vw, 20rem);
 
 }
 nav a {
 color: rgb(0, 0, 0);
 text-decoration: none;
 text-transform: uppercase;
-font-size: clamp(1rem, 2.5vw, 3rem); 
+font-size: clamp(1rem, 1.5vw, 3rem); 
 
 
 }
@@ -105,9 +105,16 @@ nav a::before  {
   color: rgb(0, 0, 0);
   text-decoration: none;
   text-transform: uppercase;
-  font-size:2.5vw;cursor:pointer
+  font-size: clamp(1rem, 1.5vw, 3rem);cursor:pointer
 }
-
+@media screen and (max-width: 1300px) {
+ 
+  .scrolllogo{
+    
+    visibility: hidden;
+  }
+  
+}
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
