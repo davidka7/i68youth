@@ -34,10 +34,10 @@ function App() {
               <a href="#about">About </a>
             </li>
             <li>
-              <a href="#">Service</a>
+              <a href="#service">Service</a>
             </li>
             <li>
-              <a href="#">Sermons</a>
+              <a href="#sermon">Sermons</a>
             </li>
             <li>
               <span className="spanner" onClick={openNav}>
@@ -71,11 +71,11 @@ function App() {
       </header>
       <div className="small-top"></div>
       <img src={scroll} className="scrolllogo"></img>{" "}
-      <div className="from-top"></div>
+      <div id="about" className="from-top"></div>
       <About />
-      <div className="from-top"></div>
+      <div id="service" className="from-top"></div>
       <Service />
-      <div className="from-top"></div>
+      <div id="sermon" className="from-top"></div>
       <Sermon />
       <div className="from-top"></div>
       {/* {console.log(data)}

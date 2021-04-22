@@ -38,7 +38,7 @@ text-align:center;
   padding-right:10vw
 }
 .imglogo {
-  width:clamp(20vw, 50%, 25vw);
+  width:clamp(20vw, 50%, 10vw);
   
   float: left !important;
  
@@ -47,6 +47,7 @@ padding-top:1vh;
 }
 header {width: 100%;
   position: fixed;
+  display: flex;
   top: 0;}
 .from-top{
 padding-top: 30vh;
@@ -59,18 +60,23 @@ padding-top: 30vh;
 
 nav
 {
-  float:right
+  float:right;
+  
+  flex-grow: 1;
 }
 nav ul {
 margin:0;
 padding:0;
-position:center center
+position:center center;
+display:flex;
+justify-content: space-around;
+
 }
 
 nav li {
 display:inline-block;
-margin: 0 4vw;
-padding-top:clamp(3rem, 4.5vw, 20rem);
+
+padding-top:clamp(3rem, 3.5vw, 20rem);
 
 }
 nav a {
@@ -127,7 +133,7 @@ nav a:hover::before {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(12px + 2vmin);
+  font-size: calc(10px + 2vmin);
   color: white;
 }
 @media only screen and (max-width: 767px) {

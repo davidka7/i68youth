@@ -1,7 +1,7 @@
 import family from "./family.jpg";
 function About() {
   return (
-    <div id="about" className="cover ">
+    <div className="cover ">
       {" "}
       <br />
       <br />
