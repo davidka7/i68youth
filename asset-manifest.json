@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/i68youth/static/css/main.cca31082.chunk.css",
+    "main.css": "/i68youth/static/css/main.4f5d93d6.chunk.css",
     "main.js": "/i68youth/static/js/main.b1a2781a.chunk.js",
     "main.js.map": "/i68youth/static/js/main.b1a2781a.chunk.js.map",
     "runtime-main.js": "/i68youth/static/js/runtime-main.54dd4660.js",
@@ -10,7 +10,7 @@
     "static/js/3.81772990.chunk.js": "/i68youth/static/js/3.81772990.chunk.js",
     "static/js/3.81772990.chunk.js.map": "/i68youth/static/js/3.81772990.chunk.js.map",
     "index.html": "/i68youth/index.html",
-    "static/css/main.cca31082.chunk.css.map": "/i68youth/static/css/main.cca31082.chunk.css.map",
+    "static/css/main.4f5d93d6.chunk.css.map": "/i68youth/static/css/main.4f5d93d6.chunk.css.map",
     "static/js/2.d3aca885.chunk.js.LICENSE.txt": "/i68youth/static/js/2.d3aca885.chunk.js.LICENSE.txt",
     "static/media/App.css": "/i68youth/static/media/cloud.88af2f6b.png",
     "static/media/family.8cba3210.jpg": "/i68youth/static/media/family.8cba3210.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.54dd4660.js",
     "static/js/2.d3aca885.chunk.js",
-    "static/css/main.cca31082.chunk.css",
+    "static/css/main.4f5d93d6.chunk.css",
     "static/js/main.b1a2781a.chunk.js"
   ]
 }
