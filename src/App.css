@@ -145,12 +145,17 @@ nav a:hover::before {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
   .App {
+    background-image: url("cloud-1.png");
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* The file size of this background image is 93% smaller
   to improve page load speed on mobile internet connections */
-  background-image: url("cloud-1.png");
-  
+ 
+
   }
   }
 
