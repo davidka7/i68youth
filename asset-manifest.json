@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/i68youth/static/css/main.44991170.chunk.css",
-    "main.js": "/i68youth/static/js/main.b1a2781a.chunk.js",
-    "main.js.map": "/i68youth/static/js/main.b1a2781a.chunk.js.map",
-    "runtime-main.js": "/i68youth/static/js/runtime-main.54dd4660.js",
-    "runtime-main.js.map": "/i68youth/static/js/runtime-main.54dd4660.js.map",
-    "static/js/2.d3aca885.chunk.js": "/i68youth/static/js/2.d3aca885.chunk.js",
-    "static/js/2.d3aca885.chunk.js.map": "/i68youth/static/js/2.d3aca885.chunk.js.map",
-    "static/js/3.81772990.chunk.js": "/i68youth/static/js/3.81772990.chunk.js",
-    "static/js/3.81772990.chunk.js.map": "/i68youth/static/js/3.81772990.chunk.js.map",
+    "main.css": "/i68youth/static/css/main.610f6ad8.chunk.css",
+    "main.js": "/i68youth/static/js/main.02635072.chunk.js",
+    "main.js.map": "/i68youth/static/js/main.02635072.chunk.js.map",
+    "runtime-main.js": "/i68youth/static/js/runtime-main.39361242.js",
+    "runtime-main.js.map": "/i68youth/static/js/runtime-main.39361242.js.map",
+    "static/css/2.150d169a.chunk.css": "/i68youth/static/css/2.150d169a.chunk.css",
+    "static/js/2.1dca1867.chunk.js": "/i68youth/static/js/2.1dca1867.chunk.js",
+    "static/js/2.1dca1867.chunk.js.map": "/i68youth/static/js/2.1dca1867.chunk.js.map",
+    "static/js/3.ac9b3d87.chunk.js": "/i68youth/static/js/3.ac9b3d87.chunk.js",
+    "static/js/3.ac9b3d87.chunk.js.map": "/i68youth/static/js/3.ac9b3d87.chunk.js.map",
     "index.html": "/i68youth/index.html",
-    "static/css/main.44991170.chunk.css.map": "/i68youth/static/css/main.44991170.chunk.css.map",
-    "static/js/2.d3aca885.chunk.js.LICENSE.txt": "/i68youth/static/js/2.d3aca885.chunk.js.LICENSE.txt",
+    "static/css/2.150d169a.chunk.css.map": "/i68youth/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.610f6ad8.chunk.css.map": "/i68youth/static/css/main.610f6ad8.chunk.css.map",
+    "static/js/2.1dca1867.chunk.js.LICENSE.txt": "/i68youth/static/js/2.1dca1867.chunk.js.LICENSE.txt",
+    "static/media/2016.745955e8.png": "/i68youth/static/media/2016.745955e8.png",
+    "static/media/2017.95933a32.png": "/i68youth/static/media/2017.95933a32.png",
+    "static/media/2018.c155447b.png": "/i68youth/static/media/2018.c155447b.png",
     "static/media/App.css": "/i68youth/static/media/cloud.88af2f6b.png",
-    "static/media/family.8cba3210.jpg": "/i68youth/static/media/family.8cba3210.jpg",
     "static/media/logo.43832258.png": "/i68youth/static/media/logo.43832258.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.54dd4660.js",
-    "static/js/2.d3aca885.chunk.js",
-    "static/css/main.44991170.chunk.css",
-    "static/js/main.b1a2781a.chunk.js"
+    "static/js/runtime-main.39361242.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.1dca1867.chunk.js",
+    "static/css/main.610f6ad8.chunk.css",
+    "static/js/main.02635072.chunk.js"
   ]
 }
