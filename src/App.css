@@ -154,19 +154,6 @@ nav a:hover::before {
 
 }
 
-
-/* Desktop-only view. 
- * Largest mobile view is iPad Pro with 1366 in landscape mode
- */
- @media only screen and (min-width:1367px) {
-   .App {
-  
-    --bg-image-jpg: url('cloud.png');
-    --bg-size: cover;
-    --bg-pos: center center;
-  }
-}
-/* Large mobile device screens */
 @media (max-width:767px) {
   .App {
      
