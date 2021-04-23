@@ -136,7 +136,7 @@ nav a:hover::before {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-size:100% 100%; */
+  background-size:100% 100%;
  
   display: flex;
   flex-direction: column;
@@ -145,27 +145,46 @@ nav a:hover::before {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) and (min-width: 992px) {
   .App {
   /* The file size of this background image is 93% smaller
   to improve page load speed on mobile internet connections */
   background-image: url("cloud.png");
+
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  }
+  }
+  @media screen and (max-width: 992px) {
+    .App {
+    /* The file size of this background image is 93% smaller
+    to improve page load speed on mobile internet connections */
+    background-image: url("cloud.png");
   
-  }
-  }
-  @media (max-width:499px){.App{background-image: url("cloud.png");
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-size:100% 100%; */
+    background-size:100% 100%;
    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;}}
+    color: white;
+    }
+    }
 
 #myNav {width:0%
 
