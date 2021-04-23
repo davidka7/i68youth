@@ -109,7 +109,7 @@ nav a::before  {
   text-transform: uppercase;
   font-size: clamp(1rem, 1.5vw, 3rem);cursor:pointer
 }
-@media screen and (max-width: 1300px) {
+@media (max-width: 1300px) {
  
   .scrolllogo{
     
@@ -117,7 +117,7 @@ nav a::before  {
   }
   
 }
-@media screen and (max-height: 450px) {
+@media (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
   font-size: 40px;
