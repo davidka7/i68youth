@@ -167,33 +167,13 @@ nav a:hover::before {
   }
 }
 /* Large mobile device screens */
-@media only screen and (max-width:1366px) {
+@media (max-width:767px) {
   .App {
      
-    --bg-image-jpg: url('cloud.png');
-    --bg-pos: top center;
-    --bg-size: 100vw auto;
-  }
-}
-/* Load a smaller image for smaller screens */
-@media only screen and (max-width:970px) {
-  .App{
-   
-    --bg-image-jpg: url('cloud.png');
-  }
-}
-/* Smallest image for phone screens */
-@media only screen and (max-width:500px) {
-  .App {
-    
-    --bg-image-jpg: url('cloud.png');
+  background-attachment: initial;
   }
 }
 
-
-.no-webp body {
-  background: var(--bg-image-png) var(--bg-pos) fixed / var(--bg-size) no-repeat;
-}
 #myNav {width:0%
 
 
