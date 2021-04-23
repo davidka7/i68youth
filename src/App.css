@@ -109,7 +109,7 @@ nav a::before  {
   text-transform: uppercase;
   font-size: clamp(1rem, 1.5vw, 3rem);cursor:pointer
 }
-@media (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
  
   .scrolllogo{
     
@@ -117,7 +117,7 @@ nav a::before  {
   }
   
 }
-@media (max-height: 450px) {
+@media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
   font-size: 40px;
@@ -133,33 +133,26 @@ nav a:hover::before {
 .App {
   background-image: url("cloud.png");
   background-position: center center;
-
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  
-
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  /* background-size:100% 100%; */
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-attachment: fixed;
-  z-index: -1;
-  height:100%;
-  width:100%
-
-
 }
-
-@media (max-width:767px) {
+@media only screen and (max-width: 900px) {
   .App {
-     
-  background-attachment: initial;
+  /* The file size of this background image is 93% smaller
+  to improve page load speed on mobile internet connections */
+  background-image: url("cloud-1.png");
+  
   }
-}
+  }
 
 #myNav {width:0%
 
