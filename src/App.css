@@ -148,49 +148,49 @@ nav a:hover::before {
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {.App {
     background-image: url("cloud-1.png");
-    background-attachment: initial;
+    background-attachment: scroll;
   background-position: center;
   background-repeat:repeat;
   background-size: cover;}}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {.App {
   background-image: url("cloud.png");
-  background-attachment: initial;
+  background-attachment: scroll;
 background-position: center;
 background-repeat: repeat;
 background-size: cover;}}
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {.App {
   background-image: url("cloud-1.png");
-  background-attachment: initial;
+  background-attachment: scroll;
 background-position: center;
 background-repeat: repeat;
 background-size: cover;}}
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {.App {
   background-image: url("cloud.png");
-  background-attachment: initial;
+  background-attachment: scroll;
 background-position: center;
 background-repeat: repeat;
 background-size: cover;}}
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {.App {
   background-image: url("cloud-1.png");
-  background-attachment: initial;
+  background-attachment: scroll;
 background-position: center;
 background-repeat: repeat;
 background-size: cover;}}
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {.App {
   background-image: url("cloud.png");
-  background-attachment: initial;
+  background-attachment: scroll;
 background-position: center;
 background-repeat: repeat;
 background-size: cover;}}
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {.App {
   background-image: url("cloud-1.png");
-  background-attachment: initial;
+  background-attachment: scroll;
 background-position: center;
 background-repeat: repeat;
 background-size: cover;}}
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {.App {
   background-image: url("cloud.png");
-  background-attachment: initial;
+  background-attachment: scroll;
 background-position: center;
 background-repeat: repeat;
 background-size: cover;}}
