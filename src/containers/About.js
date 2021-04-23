@@ -1,4 +1,4 @@
-import family from "./family.jpg";
+// import family from "./family.jpg";
 function About() {
   return (
     <div className="cover ">
@@ -30,7 +30,7 @@ function About() {
           possibly can. That is the goal every single one of us is striving
           towards!
         </div>{" "}
-        <img src={family} className="familylogo"></img>
+        {/* <img src={family} className="familylogo"></img> */}
       </div>
       <br />
       <br />

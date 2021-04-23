@@ -4,13 +4,25 @@ body{margin: 0}
   float: center !important;
   width:clamp(5vw, 50%, 10vw);
 }
-.familylogo{
-  float: center !important;
-  width:clamp(15vw, 50%, 20vw);
-  height:clamp(15vw, 50%, 20vw);
-    border-radius: 50%;
-  
+
+.black{
+
+  background-color: black;
 }
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+ ;
+}
+.iframe-container iframe{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
 
 /* .left{
 visibility:hidden
@@ -19,6 +31,11 @@ visibility:hidden
 
 .big {
   font-size:4vw
+}
+.bigg {
+  font-size:3.5vw;
+  
+  font-weight: bold;
 }
 .cover {
 background-color:rgb(19, 19, 19);
@@ -34,6 +51,7 @@ text-align:center;
 .flex {
   display: flex;
   justify-content: space-around;
+  text-align: center;
   padding-left:10vw;
   padding-right:10vw
 }
@@ -55,11 +73,44 @@ header {width: 100%;
 padding-top: 30vh;
 
 }
+input{ float: center !important;
+  width:clamp(15vw, 50%, 20vw);
+  height:clamp(15vw, 50%, 20vw);
+  font-size: clamp(1rem, 1.5vw, 3rem); }
+  textarea{ float: center !important;
+    width:clamp(20vw, 80%, 35vw);
+    height:clamp(250vw, 80%, 35vw);
+    font-size: clamp(1rem, 1.5vw, 3rem); }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: clamp(1rem, 1.5vw, 3rem); 
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: clamp(1rem, 1.5vw, 3rem); 
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: clamp(1rem, 1.5vw, 3rem); 
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size: clamp(1rem, 1.5vw, 3rem); 
+}
+.newy {
+  
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left:10vw;
+  padding-right:10vw
+}
 .small-top{
   padding-top: 80vh;
   
   }
-
+.right {
+  float:right !important;
+  padding-top:clamp(3rem, 2.5vw, 20rem);
+  padding-right:clamp(8rem, 2.5vw, 30rem);
+}
 nav
 {
   float:right;
@@ -89,8 +140,17 @@ font-size: clamp(1rem, 1.5vw, 3rem);
 
 
 }
+a{text-decoration: none;
+  text-transform: uppercase;
+  font-size: clamp(1rem, 1.5vw, 3rem); 
+  
+  }
 nav a:hover {
   color: rgb(119, 132, 143)
+}
+ul {
+  list-style-type: none;
+  text-align:center
 }
 nav a::before  {
 
@@ -128,6 +188,21 @@ nav a::before  {
 nav a:hover::before {
 
   width: 100%
+}
+.newApp{
+
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-size:100% 100%; */
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 @media only screen and (min-device-width: 737px)  {.App {
   background-image: url("cloud.png");
@@ -274,4 +349,34 @@ overflow-y: auto;
   top: 20px;
   right: 45px;
   font-size: 60px;
+}
+
+
+.Modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: rgb(24, 23, 23);
+  color:white;
+  height: 100vh;
+overflow-x: auto;
+/* overflow-y: auto; */
+}
+.x{
+
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.Overlay {
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  
 }
