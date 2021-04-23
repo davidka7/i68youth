@@ -131,7 +131,7 @@ nav a:hover::before {
 }
 
 .App {
-  background-image: url("cloud.png");
+  background-color:lightblue;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -146,70 +146,7 @@ nav a:hover::before {
   color: white;
 }
 
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {.App {
-    background-image: url("cloud-1.png");
-    width:100%;
-    background-size:100%;
-    background-attachment: initial;
-  background-position: center;
-  background-repeat:no-repeat;
-  }}
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {.App {
-  background-image: url("cloud.png");
-  width:100%;
-  background-size:100%;
-  background-attachment: initial;
-background-position: center;
-background-repeat: no-repeat;
-}}
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {.App {
-  background-image: url("cloud-1.png");
-  width:100%;
-  background-size:100%;
-  background-attachment: initial;
-background-position: center;
-background-repeat: no-repeat;
-}}
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {.App {
-  background-image: url("cloud.png");
-  width:100%;
-  background-size:100%;
-  background-attachment: initial;
-background-position: center;
-background-repeat: no-repeat;
-}}
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {.App {
-  background-image: url("cloud-1.png");
-  width:100%;
-  background-size:100%;
-  background-attachment: initial;
-background-position: center;
-background-repeat: no-repeat;
-}}
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {.App {
-  background-image: url("cloud.png");
-  width:100%;
-  background-size:100%;
-  background-attachment: initial;
-background-position: center;
-background-repeat: no-repeat;
-;}}
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {.App {
-  background-image: url("cloud-1.png");
-  width:100%;
-  background-size:100%;
-  background-attachment: initial;
-background-position: center;
-background-repeat: no-repeat;
-}}
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {.App {
-  background-image: url("cloud.png");
-  width:100%;
-  background-size:100%;
-  background-attachment: initial;
-background-position: center;
-background-repeat: no-repeat;
-}}
+ 
 
 #myNav {width:0%
 
