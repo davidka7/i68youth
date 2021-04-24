@@ -102,6 +102,7 @@ function App() {
         </nav>
       </header>
       <Route exact path="/" render={() => <Redirect to="/home" />} />
+      <Route exact path="/i68youth" render={() => <Redirect to="/home" />} />
       <Switch>
         <Route path="/home" component={App2} />
       </Switch>
