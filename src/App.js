@@ -15,16 +15,16 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      {/* <Router>
         <Switch>
-          <Route exact path="/react">
-            <App2 />
-          </Route>
+          <Route exact path="/react"> */}
+      <App2 />
+      {/* </Route>
           <Route path="/mission">
             <Mission />
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   );
 }
