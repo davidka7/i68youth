@@ -16,12 +16,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Route exact path="/react">
-          <App2 />
-        </Route>
-        <Route path="/mission">
-          <Mission />
-        </Route>
+        <Route path="/react" component={App2} />
+
+        <Route path="/mission" component={Mission} />
       </div>
     </Router>
   );
