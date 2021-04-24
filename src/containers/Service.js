@@ -7,38 +7,26 @@ function Service() {
       <div className="big center">Services</div>
       <br />
       <div className="flex">
-        <div className="left">
-          <ul>
-            <li>
-              <a>Youth Service on Fridays at 7:30PM </a>
-            </li>
-            <li>
-              <a>General Church Service on Sundays at 11:00AM</a>
-            </li>{" "}
-            <li></li>
-            <li>
-              <a>Prayer Service on Mondays at 7:00PM</a>
-            </li>
-            <li>
-              <a>
-                Or Join Us Live
-                <br></br>
-                <div className="iframe-container">
-                  <iframe
-                    width="650"
-                    heihgt="315"
-                    src="https://www.youtube.com/embed/live_stream?channel=UCObhf35DgyjT5d8Z45osQxA"
-                    frameBorder="0"
-                    allow="autoplay; encrypted-media"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </a>{" "}
-            </li>
-          </ul>
-        </div>{" "}
-        {/* <button>Click here</button> */}
-      </div>
+        <a>Youth Service on Fridays at 7:30PM </a>
+        <a>General Church Service on Sundays at 11:00AM</a>
+        <a>Prayer Service on Mondays at 7:00PM</a>{" "}
+      </div>{" "}
+      <br />
+      <a className="flex">Or Join Us Live</a>
+      <br />
+      <a>
+        <div className="iframe-container flex">
+          <iframe
+            width="650"
+            heihgt="315"
+            src="https://www.youtube.com/embed/live_stream?channel=UCObhf35DgyjT5d8Z45osQxA"
+            frameBorder="0"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </a>{" "}
+      {/* <button>Click here</button> */}
       <br />
       <br />
     </div>
