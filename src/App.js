@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/react">
             <App2 />
           </Route>
           <Route path="/mission">

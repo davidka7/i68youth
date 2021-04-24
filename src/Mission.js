@@ -71,7 +71,7 @@ function Mission() {
         <nav>
           <span className="spanner right">
             &#9776;
-            <Link to="/">Back Home</Link>
+            <Link to="/react">Back Home</Link>
           </span>
         </nav>
       </header>

@@ -51,8 +51,8 @@ function App2() {
               &times;
             </a>
             <div className="overlay-content">
-              <Link to="/">Home</Link>
-              <Link to="mission">Mission Trips</Link>
+              <Link to="/react">Home</Link>
+              <Link to="/mission">Mission Trips</Link>
 
               <a>Youth Camps</a>
 
