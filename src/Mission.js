@@ -3,9 +3,7 @@ import ReactModal from "react-modal";
 import { useState } from "react";
 import "./App.css";
 import "./Mission.css";
-import m6 from "./2016.png";
-import m7 from "./2017.png";
-import m8 from "./2018.png";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
@@ -70,18 +68,13 @@ function Mission() {
       <br /> <br /> <br /> <br />
       <Carousel className="z">
         <Carousel.Item>
-          <img
-            onClick={openMod}
-            className="d-block w-100"
-            alt="2016"
-            src={m6}
-          />
+          <div onClick={openMod} className="d-block w-100 m6" alt="2016" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" alt="2017" src={m7} />
+          <div onClick={openMod} className="d-block w-100 m7" alt="2017" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" alt="2018" src={m8} />
+          <div onClick={openMod} className="d-block w-100 m8" alt="2018" />
         </Carousel.Item>
       </Carousel>
       <ReactModal
@@ -111,7 +104,9 @@ function Mission() {
           &times;
         </a>
       </ReactModal>
-      <br /> <br /> <br />
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+      <br /> <br />
+      <br /> <br /> <br /> <br /> <br />
     </div>
   );
 }

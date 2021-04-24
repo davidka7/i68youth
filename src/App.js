@@ -81,24 +81,22 @@ function App() {
             <a className="closebtn" onClick={closeNav}>
               &times;
             </a>
-            <div className="overlay-content">
-              <Link onClick={closeNav} to="/mission">
-                Mission Trips
-              </Link>
+            <div onClick={closeNav} className="overlay-content">
+              <Link to="/mission">Mission Trips</Link>
 
-              <a onClick={closeNav}>Youth Camps</a>
+              <a>Youth Camps</a>
 
-              <a onClick={closeNav}>Outreach</a>
+              <a>Outreach</a>
 
-              <a onClick={closeNav}>G4t Conference</a>
+              <a>G4t Conference</a>
 
-              <a onClick={closeNav}>Youth Camp Page</a>
+              <a>Youth Camp Page</a>
 
-              <a onClick={closeNav}>Podcast Page</a>
+              <a>Podcast Page</a>
 
-              <a onClick={closeNav}>Youtube Page</a>
+              <a>Youtube Page</a>
 
-              <a onClick={closeNav}>Merch Store</a>
+              <a>Merch Store</a>
             </div>
           </div>
         </nav>
