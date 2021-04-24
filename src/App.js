@@ -82,21 +82,23 @@ function App() {
               &times;
             </a>
             <div className="overlay-content">
-              <Link to="/mission">Mission Trips</Link>
+              <Link onClick={closeNav} to="/mission">
+                Mission Trips
+              </Link>
 
-              <a>Youth Camps</a>
+              <a onClick={closeNav}>Youth Camps</a>
 
-              <a>Outreach</a>
+              <a onClick={closeNav}>Outreach</a>
 
-              <a>G4t Conference</a>
+              <a onClick={closeNav}>G4t Conference</a>
 
-              <a>Youth Camp Page</a>
+              <a onClick={closeNav}>Youth Camp Page</a>
 
-              <a>Podcast Page</a>
+              <a onClick={closeNav}>Podcast Page</a>
 
-              <a>Youtube Page</a>
+              <a onClick={closeNav}>Youtube Page</a>
 
-              <a>Merch Store</a>
+              <a onClick={closeNav}>Merch Store</a>
             </div>
           </div>
         </nav>
