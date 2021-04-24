@@ -6,7 +6,7 @@ import "./Mission.css";
 import m6 from "./2016.png";
 import m7 from "./2017.png";
 import m8 from "./2018.png";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 function Mission() {
