@@ -114,7 +114,7 @@ input{ float: center !important;
 nav
 {
   float:right;
-  
+  width:80%;
   flex-grow: 1;
 }
 nav ul {

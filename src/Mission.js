@@ -55,14 +55,9 @@ function Mission() {
       title: "Start of Project",
     },
   ];
-  const [myNav, setmyNav] = useState("myNav");
+
   const [myMod, setmyMod] = useState(false);
-  const openNav = () => {
-    setmyNav("myNav1");
-  };
-  const closeNav = () => {
-    setmyNav("myNav");
-  };
+
   const openMod = () => {
     setmyMod(true);
   };
@@ -74,34 +69,10 @@ function Mission() {
     <div className="newApp">
       <header>
         <nav>
-          <span className="spanner right" onClick={openNav}>
-            &#9776; open
+          <span className="spanner right">
+            &#9776;
+            <Link to="/">Back Home</Link>
           </span>
-
-          <div id={`${myNav}`} className="overlay">
-            <a className="closebtn" onClick={closeNav}>
-              &times;
-            </a>
-            <div className="overlay-content">
-              <Link to="/">Home</Link>
-
-              <Link to="mission">Mission Trips</Link>
-
-              <a>Youth Camps</a>
-
-              <a>Outreach</a>
-
-              <a>G4t Conference</a>
-
-              <a>Youth Camp Page</a>
-
-              <a>Podcast Page</a>
-
-              <a>Youtube Page</a>
-
-              <a>Merch Store</a>
-            </div>
-          </div>
         </nav>
       </header>
       <br /> <br /> <br /> <br />
