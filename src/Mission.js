@@ -67,7 +67,7 @@ function Mission() {
 
   return (
     <div className="newApp">
-      <header>
+      {/* <header>
         <nav>
           <span className="spanner right">
             &#9776;
@@ -119,7 +119,7 @@ function Mission() {
           &times;
         </a>
       </ReactModal>
-      <br /> <br /> <br />
+      <br /> <br /> <br /> */}
     </div>
   );
 }
