@@ -6,7 +6,7 @@ import "./Mission.css";
 import m6 from "./2016.png";
 import m7 from "./2017.png";
 import m8 from "./2018.png";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 function Mission() {
@@ -67,16 +67,8 @@ function Mission() {
 
   return (
     <div className="newApp">
-      <header>
-        <nav>
-          <span className="spanner right">
-            &#9776;
-            {/* <Link to="/react">Back Home</Link> */}
-          </span>
-        </nav>
-      </header>
       <br /> <br /> <br /> <br />
-      <Carousel>
+      <Carousel className="z">
         <Carousel.Item>
           <img
             onClick={openMod}
