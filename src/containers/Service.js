@@ -1,4 +1,14 @@
+import { useState } from "react";
 function Service() {
+  const [closer, setClosed] = useState("closed");
+  const service = () => {
+    console.log("test");
+    if (closer === "closed") {
+      setClosed("closezz");
+    } else {
+      setClosed("closed");
+    }
+  };
   return (
     <div className="cover ">
       {" "}
@@ -12,11 +22,14 @@ function Service() {
         <a>Prayer Service on Mondays at 7:00PM</a>{" "}
       </div>{" "}
       <br />
-      <a className="flex">Or Join Us Live</a>
+      <a onClick={service} className="flex">
+        Or Join Us Live
+      </a>
       <br />
       <a>
-        <div className="iframe-container flex">
+        <div className={`iframe-container flex ${closer}`}>
           <iframe
+            className={closer}
             width="650"
             heihgt="315"
             src="https://www.youtube.com/embed/live_stream?channel=UCObhf35DgyjT5d8Z45osQxA"

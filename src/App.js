@@ -65,7 +65,7 @@ function App() {
             )}
             {location.pathname === "/home" ? (
               <li>
-                <a onClick={sermoner}>Sermons</a>
+                <a onClick={sermoner}>Events</a>
               </li>
             ) : (
               <div></div>
