@@ -64,7 +64,7 @@ function Mission() {
   };
 
   return (
-    <div className="newApp">
+    <div className="newApp sis">
       <br /> <br /> <br /> <br />
       <Carousel className="z">
         <Carousel.Item>

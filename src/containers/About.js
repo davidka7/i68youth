@@ -32,8 +32,6 @@ function About() {
         </div>{" "}
         {/* <img src={family} className="familylogo"></img> */}
       </div>
-      <br />
-      <br />
     </div>
   );
 }

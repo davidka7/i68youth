@@ -29,11 +29,11 @@ function App2() {
       <img src={scroll} alt="" className="scrolllogo"></img>{" "}
       <div id="about" path="/about" className="from-top"></div>
       <About />
-      <div id="service" className="from-top"></div>
+      <div id="service" className="from-worship"></div>
       <Service />
-      <div id="sermon" className="from-top"></div>
+      <div id="sermon" className="from-volly"></div>
       <Sermon />
-      <div className="from-top"></div>
+      <div className="from-tech"></div>
       {/* {console.log(data)}
         <img src={logo} className="App-logo" alt="logo" />
         <p>{!data ? "Loading......" : data}</p> */}

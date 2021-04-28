@@ -40,8 +40,6 @@ function Service() {
         </div>
       </a>{" "}
       {/* <button>Click here</button> */}
-      <br />
-      <br />
     </div>
   );
 }

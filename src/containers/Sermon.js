@@ -71,8 +71,6 @@ function Sermon() {
           </form>
         </div>{" "}
       </div>
-      <br />
-      <br />
     </div>
   );
 }
