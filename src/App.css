@@ -203,6 +203,8 @@ nav a:hover::before {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-left:20vw;
+  padding-right:20vw;
 }
 @media only screen and (min-device-width: 737px)  {.App {
   background-image: url("cloud.png");
